@@ -1,5 +1,5 @@
 import java.util.*;
- public class SquareofSortedArray977{
+ public class SquareofSortedArray{
      public static int[] sortedSquares(int[] nums){
         int start=0;
         int end=nums.length-1;
