@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Roman {
 
-    // ✅ Method placed before main()
     public int romanToInt(String s) {
         Map<Character, Integer> romanMap = new HashMap<>();
         romanMap.put('I', 1);
@@ -31,8 +30,7 @@ public class Roman {
 
         return total;
     }
-
-    // ✅ main() after romanToInt()
+    //main function
     public static void main(String[] args) {
         String s = "MCMXCIV"; // Example input (1994)
 
