@@ -13,7 +13,7 @@ public class MajorityElement{
         }
         else if(ans ==nums[i]){
             freq++;
-        }
+        } 
         else{
             freq--;
         }
