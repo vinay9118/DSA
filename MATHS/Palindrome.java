@@ -20,6 +20,5 @@ public class Palindrome{
         // Call the function and print output
         boolean result = isPalindrome(x);
         System.out.println("Input number: " + x);
-        System.out.println("Is palindrome? " + result);
     }
 }
