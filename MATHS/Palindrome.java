@@ -4,13 +4,13 @@ public class Palindrome{
             return false;
         }
         int n = x;
-        int reverse = 0;
+        int rev = 0;
         while (n > 0) {
             int d = n % 10;
-            reverse = reverse * 10 + d;
+            rev = rev * 10 + d;
             n = n / 10;
         }
-        return reverse == x;
+        return rev == x;
     }
 
     public static void main(String[] args) {
