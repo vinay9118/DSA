@@ -67,10 +67,10 @@ public class string{
         
         //compare string and using new string==>.equals
         if(s5.equals(s6)){
-            System.out.println("s5 and s6 String Equal");
+            System.out.println("Yes s5 and s6 String Equal");
         }
         else{
-             System.out.println("s5 and s6 String Not Equal");
+             System.out.println("No s5 and s6 String Not Equal");
         }
     }
 }
