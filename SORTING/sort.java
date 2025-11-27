@@ -6,6 +6,7 @@ public class sort{
       int mid=0;
       int low=0;
       int high=n-1;
+
       while(mid<=high){
         if(nums[mid] == 0){
             int temp=nums[low];
@@ -23,10 +24,11 @@ public class sort{
             nums[mid]=temp;
 
         }
+
       } 
     }
     public static void main(String[] args){
-        int [] num={2,0,2,1,1,0,1,2,0,0};
+        int [] num={2,0,2,1,1,0,1,2,0,1};
         System.out.println(singleNonDuplicate(num));
     }
 }
