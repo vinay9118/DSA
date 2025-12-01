@@ -22,7 +22,7 @@ public class Selectionssort{
         return num;
     }
     public static void main(String[] args){
-        int arr[]={5,4,3,2,7};
+        int arr[]={5,4,3,2,9};
         int[]result=selectionsort(arr);
         System.out.println(Arrays.toString(result));
     }
