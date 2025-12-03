@@ -25,7 +25,7 @@ public class Pow50{
     }
     public static void main(String[] args){
         double x1=2.10000;
-        int n1=3;
-        System.out.println(myPow(x1,n1));
+        int n3=3;
+        System.out.println(myPow(x1,n3));
     }
 }
