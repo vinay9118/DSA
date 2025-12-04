@@ -15,11 +15,7 @@ public class Countoperation {
     public static void main(String[] args) {
         int num1 =10;
         int num2=10;
-
-        // Compute result
         int result = countOperations(num1, num2);
-
-        // Print output
         System.out.println(result);
     }
 }
