@@ -23,10 +23,10 @@ public class DifferenceOfSum {
 
     public static void main(String[] args) {
         // input already defined
-        int[] nums = {1, 4, 3, 2, 5};
+        int[] num = {1, 4, 3, 2, 5};
         int k = 2;
 
-        int result = differenceOfSum(nums, k);
+        int result = differenceOfSum(num, k);
         System.out.println(result);
     }
 }
