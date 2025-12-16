@@ -12,7 +12,7 @@ public class Palindrome {
             if (left != right) return false;
             // Remove leftmost and rightmost digits
             x = (x % div) / 10;  
-            div /= 100;  // shrinking divisor since we removed 2 digits
+            div /= 100; 
         }
 
         return true;
