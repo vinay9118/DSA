@@ -18,12 +18,8 @@ public class ColumnDeletion {
     }
 
     public static void main(String[] args) {
-        // Input already defined
         String[] strs = {"abc", "bce", "cae"};
-
         int result = minDeletionSize(strs);
-
-        // Output
         System.out.println("Number of columns to delete: " + result);
     }
 }
