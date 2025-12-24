@@ -12,9 +12,9 @@ class Solution {
             for (int j = n - 1; j >= 0; j--) {
                 int d2 = num2.charAt(j) - '0';
 
-                int sum = d1 * d2 + res[i + j + 1]; // existing value at that position
-                res[i + j + 1] = sum % 10;          // current digit
-                res[i + j] += sum / 10;             // carry
+                int sum = d1 * d2 + res[i + j + 1]; 
+                res[i + j + 1] = sum % 10;          
+                res[i + j] += sum / 10;             
             }
         }
 
