@@ -10,13 +10,11 @@ public class Bestclosing{
 
         int minPenalty = penalty;
         int bestHour = 0;
-
-        // Check penalty for closing at each hour
         for (int i = 0; i < customers.length(); i++) {
             if (customers.charAt(i) == 'Y') {
-                penalty--;   // shop open, customer comes → reduce penalty
+                penalty--;
             } else {
-                penalty++;   // shop open, no customer → increase penalty
+                penalty++;
             }
 
             if (penalty < minPenalty) {
@@ -30,7 +28,7 @@ public class Bestclosing{
 
     public static void main(String[] args) {
         // Input already defined
-        String customers = "YYNY";
+        String customers = "YYN";
 
         int result = bestClosingTime(customers);
 
