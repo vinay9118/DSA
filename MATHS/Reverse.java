@@ -21,7 +21,7 @@ public class Reverse {
     }
 
     public static void main(String[] args) {
-        int x = 1232;  
+        int x = 121;  
         int reversed = reverse(x);
         System.out.println("Original: " + x);
         System.out.println("Reversed: " + reversed);
