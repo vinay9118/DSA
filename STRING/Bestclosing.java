@@ -27,7 +27,6 @@ public class Bestclosing{
     }
 
     public static void main(String[] args) {
-        // Input already defined
         String customers = "YYN";
 
         int result = bestClosingTime(customers);
