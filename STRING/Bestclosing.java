@@ -27,11 +27,11 @@ public class Bestclosing{
     }
 
     public static void main(String[] args) {
-        String customers = "YYN";
+        String cust= "YYN";
 
-        int result = bestClosingTime(customers);
+        int result = bestClosingTime(cust);
 
-        System.out.println("Customer Log: " + customers);
+        System.out.println("Customer Log: " + cust);
         System.out.println("Best Closing Hour: " + result);
     }
 }
