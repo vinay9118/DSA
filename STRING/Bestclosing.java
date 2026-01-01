@@ -32,6 +32,6 @@ public class Bestclosing{
         int result = bestClosingTime(cust);
 
         System.out.println("Customer Log: " + cust);
-        System.out.println("Best Closing Hour: " + result);
+        System.out.println("Best Closing : " + result);
     }
 }
