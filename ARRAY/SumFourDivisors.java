@@ -30,12 +30,8 @@ public class SumFourDivisors {
     }
 
     public static void main(String[] args) {
-        // Input already defined
         int[] nums = {21, 4, 7};
-
         int result = sumFourDivisors(nums);
-
-        // Output
         System.out.println("Sum of divisors of numbers having exactly 4 divisors: " + result);
     }
 }
