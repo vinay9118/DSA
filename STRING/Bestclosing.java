@@ -28,9 +28,7 @@ public class Bestclosing{
 
     public static void main(String[] args) {
         String cust= "YYN";
-
         int result = bestClosingTime(cust);
-
         System.out.println("Customer Log: " + cust);
         System.out.println("Best Closing : " + result);
     }
