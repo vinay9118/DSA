@@ -30,6 +30,6 @@ public class Bestclosing{
         String cust= "YYN";
         int result = bestClosingTime(cust);
         System.out.println("Customer " + cust);
-        System.out.println("Best Closing : " + result);
+        System.out.println("Best : " + result);
     }
 }
