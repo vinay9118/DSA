@@ -30,7 +30,7 @@ public class MaxSquareHole{
     }
 
     public static void main(String[] args) {
-        // Input already defined
+        
         int n = 2;
         int m = 2;
 
