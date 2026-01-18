@@ -11,7 +11,7 @@ public class SeparateSquares{
         }
 
         // Binary search for required y-coordinate
-        for (int iter = 0; iter < 100; iter++) { // sufficient for precision 1e-5
+        for (int iter = 0; iter < 100; iter++) { 
             double mid = (low + high) / 2.0;
 
             double below = 0.0;
