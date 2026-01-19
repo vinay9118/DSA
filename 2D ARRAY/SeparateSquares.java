@@ -3,8 +3,6 @@ public class SeparateSquares{
     public static double separateSquares(int[][] squares) {
         double low = Double.MAX_VALUE;
         double high = Double.MIN_VALUE;
-
-        // Find search range for y
         for (int[] s : squares) {
             low = Math.min(low, s[1]);
             high = Math.max(high, s[1] + s[2]);
