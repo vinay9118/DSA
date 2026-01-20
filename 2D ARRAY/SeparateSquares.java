@@ -7,8 +7,6 @@ public class SeparateSquares{
             low = Math.min(low, s[1]);
             high = Math.max(high, s[1] + s[2]);
         }
-
-        // Binary search for required y-coordinate
         for (int iter = 0; iter < 100; iter++) { 
             double mid = (low + high) / 2.0;
 
