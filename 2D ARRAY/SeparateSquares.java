@@ -46,8 +46,6 @@ public class SeparateSquares{
         };
 
         double result = separateSquares(squares);
-
-        // Output
         System.out.printf("Minimum y-coordinate: %.5f%n", result);
     }
 }
