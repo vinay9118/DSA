@@ -40,7 +40,6 @@ public class SeparateSquares{
     }
 
     public static void main(String[] args) {
-        // Input already defined
         int[][] squares = {
             {0, 0, 2},
             {1, 1, 2}
