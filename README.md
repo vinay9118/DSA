@@ -31,14 +31,3 @@ The goal is to build strong problem-solving skills and prepare for **coding inte
 - Bit Manipulation
 
 ---
-
-## 🧩 LeetCode Practice
-Each solution includes:
-- ✅ Problem statement reference
-- ✅ Optimized Java solution
-- ✅ Time & Space Complexity
-- ✅ Clean and readable code
-
----
-
-## 📂 Project Structure
