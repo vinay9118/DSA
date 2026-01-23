@@ -46,6 +46,6 @@ public class SeparateSquares{
         };
 
         double result = separateSquares(squares);
-        System.out.printf("Minimum y-cor", result);
+        System.out.printf("result", result);
     }
 }
