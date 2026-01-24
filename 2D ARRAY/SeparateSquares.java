@@ -46,6 +46,6 @@ public class SeparateSquares{
         };
 
         double result = separateSquares(squares);
-        System.out.printf("final answer", result);
+        System.out.print("final answer"+ result);
     }
 }
