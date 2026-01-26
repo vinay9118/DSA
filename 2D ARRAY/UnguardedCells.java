@@ -37,6 +37,6 @@ public class UnguardedCells {
         int m = 4, n = 6;
         int[][] guards = {{0,0},{1,1},{2,3}};
         int[][] walls = {{0,1},{2,2},{1,4}};
-        System.out.println(sol.countUnguarded(m, n, guards, walls));  // Output: 7
+        System.out.println(sol.countUnguarded(m, n, guards, walls));
     }
 }
