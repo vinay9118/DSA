@@ -15,7 +15,7 @@ public class UnguardedCells {
             for (int[] d : dirs) {
                 int nr = r + d[0], nc = c + d[1];
                 while (nr >= 0 && nr < m && nc >= 0 && nc < n && grid[nr][nc] != 1 && grid[nr][nc] != 2) {
-                    if (grid[nr][nc] == 0) grid[nr][nc] = 3;  // mark as guarded
+                    if (grid[nr][nc] == 0) grid[nr][nc] = 3;
                     nr += d[0];
                     nc += d[1];
                 }
