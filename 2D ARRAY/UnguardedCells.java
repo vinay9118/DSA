@@ -4,7 +4,7 @@ public class UnguardedCells {
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
         int[][] grid = new int[m][n];
         
-        // 1 = , 2 = wall, 3 = guarded
+        
         for (int[] g : guards) grid[g[0]][g[1]] = 1;
         for (int[] w : walls) grid[w[0]][w[1]] = 2;
         
