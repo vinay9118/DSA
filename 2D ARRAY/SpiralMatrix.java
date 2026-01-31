@@ -19,8 +19,6 @@ public class SpiralMatrix{
                 arr[minrow][a]=count;
                 count++;
             }
-
-            //maxcol constant ,minrow+1 ->>maxrow
             for(int b=minrow+1;b<=maxrow;b++){
                 arr[b][maxcol]=count;
                 count++;
