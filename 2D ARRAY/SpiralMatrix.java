@@ -35,7 +35,7 @@ public class SpiralMatrix{
                 arr[b][mincol]=count;
                 count++;
             }
-            //increase min++,and decrease max--
+    
             minrow++;
             mincol++;
             maxrow--;
