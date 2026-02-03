@@ -30,7 +30,7 @@ public class SpiralMatrix{
                 count++;
             }
 
-            //mincol constant, maxrow-1 ->>minrow+1
+            
             for(int b=maxrow-1;b>=minrow+1;b--){
                 arr[b][mincol]=count;
                 count++;
