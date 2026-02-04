@@ -23,8 +23,6 @@ public class SpiralMatrix{
                 arr[b][maxcol]=count;
                 count++;
             }
-
-            //maxrow constant ,maxcol-1  ->>mincol
             for(int a=maxcol-1;a>=mincol;a--){
                 arr[maxrow][a]=count;
                 count++;
