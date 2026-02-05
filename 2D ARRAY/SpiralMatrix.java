@@ -12,9 +12,7 @@ public class SpiralMatrix{
         int maxrow=n-1;
         int maxcol=n-1;
 
-        while(count <= n*n){
-
-            //  minrow constant ,mincol->maxcol 
+        while(count <= n*n){ 
             for(int a=mincol;a<=maxcol;a++){
                 arr[minrow][a]=count;
                 count++;
