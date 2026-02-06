@@ -2,7 +2,6 @@ import java.util.*;
 
 public class SpiralMatrix{
     public static int [][] generateMatrix(int n){
-        //create an array size of n*n
         int [][] arr=new int[n][n];
         
         int count=1;
