@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class UnguardedCells {
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
@@ -24,8 +23,8 @@ public class UnguardedCells {
         
         int count = 0;
         for (int i = 0; i < m; i++) {
-            for (int m = 0; m < n; m++) {
-                if (grid[i][m] == 0) count++;
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 0) count++;
             }
         }
         
