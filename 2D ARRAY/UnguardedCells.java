@@ -1,5 +1,5 @@
 
-public class UnguardedCells {
+public class UnguardedCells{
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
         int[][] grid = new int[m][n];
         
