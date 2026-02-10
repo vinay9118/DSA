@@ -32,6 +32,6 @@ public class MaxMatrixSum {
             {-1, 1}
         };
         long result = maxMatrixSum(matrix);
-        System.out.println("Max Matrix Sum: " + result);
+        System.out.println("Maximum Matrix Sum: " + result);
     }
 }
