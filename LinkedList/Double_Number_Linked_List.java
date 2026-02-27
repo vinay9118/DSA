@@ -13,8 +13,7 @@ public class Double_Number_Linked_List {
         }
     }
 
-    // public static ListNode head;
-    // public static ListNode tail;
+
     public static void print(ListNode temp) {
         while (temp != null) {
             System.out.print(temp.val + " -> ");
