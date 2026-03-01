@@ -69,7 +69,6 @@ public class Double_Number_Linked_List {
         ListNode head3 = new ListNode(8);
         head1.next = head2;
         head2.next = head3;
-        // print(head1);
         ListNode ans=doubleIt(head1);
         print(ans);
     }
