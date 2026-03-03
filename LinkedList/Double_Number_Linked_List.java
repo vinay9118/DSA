@@ -1,4 +1,4 @@
-//leetcode 2816
+//Leetcode 2816
 
 public class Double_Number_Linked_List {
 
