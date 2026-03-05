@@ -65,7 +65,7 @@ public class LinkedList {
 
     public void Print() {
         if (head == null) {
-            System.out.println("Linked List Is Empty");
+            System.out.println("LinkedList Is Empty");
         }
         Node temp = head;
         while (temp != null) {
