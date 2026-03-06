@@ -78,7 +78,7 @@ public class LinkedList {
 
     public int removeFirst() {
         if (size == 0) {
-            System.out.println("LinkedList is Empty");
+            System.out.println("Linked List is Empty");
             return Integer.MIN_VALUE;
         } else if (size == 1) {
             int val = head.data;
