@@ -115,7 +115,7 @@ public class LinkedList {
     }
 
     public int remove(int idx) {
-        //Write Previous code for size 0 and size 1 
+        //Write Previous code for size 
         int i = 0;
         Node prev = head;
         Node prev1 = prev;
