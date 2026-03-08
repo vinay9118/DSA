@@ -30,7 +30,7 @@ public class N_Queen_Problem_One_Sol{
         //base case
         if (row == board.length) {
             count++;
-            // printBoard(board);
+            
             return true;
         }
 
