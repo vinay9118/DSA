@@ -163,7 +163,7 @@ public class LinkedList {
         ll.remove(1);
         ll.Print();
 
-        //Search for key in LinkedList Return the Position Where it is found if Not then return
+        //Search for key in LinkedList Return the Position Where it is found if Not then return -1
     }
     
 }
