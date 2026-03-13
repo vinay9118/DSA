@@ -1,4 +1,4 @@
-//leetcode 2181
+/*leetcode 2181*/
 public class Merge_bw_Zeros {
 
     public static class ListNode {
