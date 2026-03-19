@@ -81,7 +81,7 @@ public class Intersection_of_List {
         ListNode t5 = new ListNode(5);
         t3.next = t4;
         t4.next = t5;
-        //Combine list
+        //Join the List
         temp1.next = t3;
         temp4.next = t3;
         print(head1);
