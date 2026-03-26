@@ -31,7 +31,7 @@ public class Reverse_Of_LinkedList {
         tail.next = newNode;
         tail = newNode;
     }
-    //Reverse Order of Linked List
+    //Reverse Order of Linked
     public void reverse(){
         Node prev=null;
         Node curr=tail=head;
