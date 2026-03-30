@@ -13,7 +13,7 @@ public class AddToArrayInt{
             if(p>=0){
                 numval=num[p];
             }
-            //find the last digit digit from k
+            //find the last digit digit k
             int d=k%10;
 
             int sum=numval+d+carry;
