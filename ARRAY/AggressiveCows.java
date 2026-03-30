@@ -1,5 +1,5 @@
 import java.util.*;
-//Important concept to solve the multiple question
+//Important concept
 public class AggressiveCows{
     public static int painterParts(int [] nums,int m,int n){
         if(m>n){
