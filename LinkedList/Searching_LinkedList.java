@@ -59,7 +59,7 @@ public class Searching_LinkedList {
         }
         ll.Print();
         //Searching in LinkedList
-        ll.search(30);
+        ll.search(40);
     }
 
 }
