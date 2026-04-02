@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class CountPartition {
 
@@ -18,7 +17,7 @@ public class CountPartition {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4}; // Already defined input
+        int[] nums = {1, 2, 3, 4}; // input
         int result = countPartitions(nums);
         System.out.println(result);
     }
