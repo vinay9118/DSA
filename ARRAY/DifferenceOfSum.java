@@ -13,7 +13,7 @@ public class DifferenceOfSum {
             minSum += nums[i];
         }
 
-        // sum of k largest elements
+        // sum of k largest 
         for (int i = n - k; i < n; i++) {
             maxSum += nums[i];
         }
@@ -22,7 +22,7 @@ public class DifferenceOfSum {
     }
 
     public static void main(String[] args) {
-        // input already defined
+        // input 
         int[] num = {1, 4, 3, 2, 5};
         int k = 2;
 
