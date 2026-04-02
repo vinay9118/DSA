@@ -14,7 +14,6 @@ public class ArrayPairSum{
     }
 
     public static void main(String[] args) {
-        // Input already defined
         int[] nums = {1, 4, 3, 2};
 
         int result = arrayPairSum(nums);
