@@ -17,7 +17,7 @@ public class hindex {
     }
 
     public static void main(String[] args) {
-        // Example input
+        // input
         int[] citations = {3, 0, 6, 1, 5};
 
         // Create an object of hindex class
