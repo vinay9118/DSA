@@ -14,6 +14,7 @@ public class kadanesmaxsubarray{
     }
   
     public static void main(String[] args){
+        // alternative solution for Maximum Subarray (Kadane's Algorithm)
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the size::");
         int n=sc.nextInt();
