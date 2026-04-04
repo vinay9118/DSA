@@ -23,13 +23,13 @@ public class LengthKPlaces{
         int[] nums = {1, 0, 0, 0, 1, 0, 0, 1};
         int k = 2;
 
-        // 🔹 Create object
+        // Create object
         LengthKPlaces obj = new LengthKPlaces();
 
-        // 🔹 Call function
+        // Call function
         boolean result = obj.kLengthApart(nums, k);
 
-        // 🔹 Output
+        //Output
         System.out.println("Result: " + result);
     }
 }
