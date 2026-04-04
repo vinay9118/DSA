@@ -16,6 +16,7 @@ public class kadan{
     }
   
     public static void main(String[] args){
+        //Input 
         int [] arr={-2,-3,4,-1,-2,1,5,-3};
         int result=maxsubsum(arr);
         System.out.print("maximum sum of subarray:"+result); 
