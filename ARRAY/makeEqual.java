@@ -20,7 +20,7 @@ class makeEqual {
 
     public static void main(String[] args) {
 
-        String[] words = {"abc", "aabc", "bc"};  // Input already defined
+        String[] words = {"abc", "aabc", "bc"};  // Input
 
         boolean result = makeEqual(words);
         System.out.println(result);
