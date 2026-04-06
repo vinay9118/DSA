@@ -25,7 +25,7 @@ public class MajorityElement{
         System.out.println("Moores Voting algorithm::"+majorityElement(num));
         System.out.println("Brute Force::"+majority(num));
     }
-    //brute Force approach
+    //brute Force approach 1
     public static int majority(int [] nums){
         Arrays.sort(nums);
         int freq=1;
