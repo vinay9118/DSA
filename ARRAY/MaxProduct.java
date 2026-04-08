@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class MaxProduct{
     public static int maxProduct(int []nums){
@@ -16,6 +15,7 @@ public class MaxProduct{
     return (max-1)*(smax-1);
     }
     public static void main(String[] args){
+        //Input
         int [] arr={1,3,4,5};
         System.out.println(maxProduct(arr));
     }
