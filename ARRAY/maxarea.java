@@ -23,6 +23,7 @@ import java.util.*;
         return maxcap;
     }
     public static void main(String[] args){
+        //Input
         int[] arr={1,8,6,2,5,4,8,3,7};
         int result=maxArea(arr);
         System.out.println(result);
