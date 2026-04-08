@@ -38,6 +38,6 @@ public class MaxSquareHole{
         int[] vBars = {2};
 
         int result = maximizeSquareHoleArea(n, m, hBars, vBars);
-        System.out.println("Maximum square hole area: " + result);
+        System.out.println("Maximum square hole : " + result);
     }
 }
