@@ -11,7 +11,7 @@ public class maxsubarraybrute{
                 int end=j;
                 currsum=0;
                 for(int k=start;k<=end;k++){
-                    //subarray sum
+                    //Subarray Sum
                     currsum+=nums[k];
                 }
                 System.out.println(currsum);
