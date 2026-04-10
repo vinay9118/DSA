@@ -13,6 +13,7 @@ public class Minimum_Operation {
     }
 
     public static void main(String[] args) {
+        //INPUT
         int[] nums = {1, 2, 4, 7};
         System.out.println(minimumOperations(nums));
     }
