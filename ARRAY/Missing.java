@@ -1,4 +1,3 @@
-import java.util.*;
 public class Missing{
     public static int missing(int [] nums){
           int n=nums.length;
@@ -12,6 +11,7 @@ public class Missing{
 
     }
     public static void main(String [] args){
+        //Input
         int [] num={0,1};
         int result=missing(num);
         System.out.println(result);
