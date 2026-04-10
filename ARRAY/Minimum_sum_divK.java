@@ -10,6 +10,7 @@ public class Minimum_sum_divK {
     }
 
     public static void main(String[] args) {
+        //Input
         int[] arr = {3, 9, 4};
         int k = 5;
         System.out.println(minOperations(arr, k));
