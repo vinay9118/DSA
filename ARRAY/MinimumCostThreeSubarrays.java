@@ -23,7 +23,7 @@ public class MinimumCostThreeSubarrays{
     }
 
     public static void main(String[] args) {
-        // Input already defined
+        // Input 
         int[] nums = {5, 2, 3, 1, 4};
 
         int result = minimumCost(nums);
