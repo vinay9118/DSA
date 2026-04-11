@@ -7,9 +7,9 @@ public class OneBitCharacter {
 
         while (i < n - 1) {
             if (bits[i] == 1) {
-                i += 2;      // two-bit character
+                i += 2;      // two-bit char
             } else {
-                i++;         // one-bit character
+                i++;         // one-bit char
             }
         }
         return i == n - 1;
