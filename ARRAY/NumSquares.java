@@ -1,5 +1,5 @@
 public class NumSquares {
-    // DP solution: dp[i] = least number of perfect squares that sum to i
+    // DP solution: dp[i] = least number of perfect squares
     public int numSquares(int n) {
         if (n <= 0) return 0;
         int[] dp = new int[n + 1];
