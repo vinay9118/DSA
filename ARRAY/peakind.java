@@ -9,10 +9,10 @@ public class peakind{
             if(arr[mid-1]<arr[mid] && arr[mid]>arr[mid+1]){
                 return mid;
             }
-            else if(arr[mid-1]<arr[mid]){//right
+            else if(arr[mid-1]<arr[mid]){//right part
                 start=mid+1;
             }
-            else{//left
+            else{//left part
                 end=mid-1;
             }
         }
