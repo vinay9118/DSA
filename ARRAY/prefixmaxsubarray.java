@@ -16,7 +16,7 @@ public class prefixmaxsubarray{
             int start=i;
             for(int j=i+1;j<nums.length;j++){
                 int end=j;
-                //calculate sum each subarray
+                //calculate sum  subarray
                 currsum=start==0 ? prefix[end]: prefix[end]-prefix[start-1];
                 //print sum of subarray
                 System.out.println(currsum);
