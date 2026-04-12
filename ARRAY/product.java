@@ -19,6 +19,7 @@ public class product{
         return ans;
     }
     public static  void main(String [] args){
+        //Input
         int [] num={1,2,3,4};
         int[] result=productexceptself(num);
                 System.out.println(Arrays.toString(result));
