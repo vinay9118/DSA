@@ -13,6 +13,7 @@ public class reverse{
         return nums;
     }
     public static void main(String[] args){
+        //Input
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the size::");
         int n=sc.nextInt();
