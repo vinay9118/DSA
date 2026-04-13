@@ -7,9 +7,9 @@ public class RotateArray {
 
         // reverse whole array
         reverse(nums, 0, n - 1);
-        // reverse first k elements
+        // reverse first k element
         reverse(nums, 0, k - 1);
-        // reverse remaining n - k elements
+        // reverse remaining n - k element
         reverse(nums, k, n - 1);
     }
 
