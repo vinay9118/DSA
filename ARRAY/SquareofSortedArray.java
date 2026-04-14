@@ -21,6 +21,7 @@ import java.util.*;
         return newarr;
      }
     public static void main(String[] args){
+        //Input
         int[]  arr={-4,-1,0,3,10};
         int[] result=sortedSquares(arr);
         System.out.println(Arrays.toString(result));
