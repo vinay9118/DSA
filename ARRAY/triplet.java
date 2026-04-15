@@ -1,4 +1,3 @@
-import java.util.*;
  public class triplet{
     public static boolean increasingtriplet(int []nums){
         int first=Integer.MAX_VALUE;
@@ -22,6 +21,7 @@ import java.util.*;
     }
 
     public static void main(String[] args){
+        //Input
         int[]  arr={5,4,3,2,1};
         boolean result=increasingtriplet(arr);
         System.out.println(result);
