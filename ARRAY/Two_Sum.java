@@ -12,6 +12,7 @@ public class Two_Sum {
         return null;
     }
     public static void main(String[] args){
+        //Input
         int[]arr={2,7,11,14};
         int target=9;
         int [] result=twoSum(arr,target);
