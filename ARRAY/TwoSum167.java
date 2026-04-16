@@ -23,7 +23,7 @@ import java.util.*;
         return ans;
     }
     public static void main(String[] args){
-        //Inputgit
+        //Input
         int[]  arr={2,7,11,15};
         int[]result=twoSum(arr,9);
         System.out.println(Arrays.toString(result));
