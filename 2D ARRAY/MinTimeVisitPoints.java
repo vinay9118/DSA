@@ -14,7 +14,7 @@ public class MinTimeVisitPoints{
     }
 
     public static void main(String[] args) {
-        // Input already defined
+        // Input
         int[][] points = {
             {1, 1},
             {3, 4},
