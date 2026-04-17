@@ -29,6 +29,7 @@ public class Rotateimage{
             }
         }
     public static void main(String[] args){
+        //Input
         int [][] arr={{1,2,3},{4,5,6},{7,8,9}};
         rotate(arr);
          for (int[] row : arr) {
