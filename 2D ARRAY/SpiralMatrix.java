@@ -1,36 +1,35 @@
-import java.util.*;
 
-public class SpiralMatrix{
-    public static int [][] generateMatrix(int n){
-        int [][] arr=new int[n][n];
-        
-        int count=1;
+public class SpiralMatrix {
 
-        int minrow=0;
-        int mincol=0;
-        int maxrow=n-1;
-        int maxcol=n-1;
+    public static int[][] generateMatrix(int n) {
+        int[][] arr = new int[n][n];
 
-        while(count <= n*n){ 
-            for(int a=mincol;a<=maxcol;a++){
-                arr[minrow][a]=count;
+        int count = 1;
+
+        int minrow = 0;
+        int mincol = 0;
+        int maxrow = n - 1;
+        int maxcol = n - 1;
+
+        while (count <= n * n) {
+            for (int a = mincol; a <= maxcol; a++) {
+                arr[minrow][a] = count;
                 count++;
             }
-            for(int b=minrow+1;b<=maxrow;b++){
-                arr[b][maxcol]=count;
+            for (int b = minrow + 1; b <= maxrow; b++) {
+                arr[b][maxcol] = count;
                 count++;
             }
-            for(int a=maxcol-1;a>=mincol;a--){
-                arr[maxrow][a]=count;
+            for (int a = maxcol - 1; a >= mincol; a--) {
+                arr[maxrow][a] = count;
                 count++;
             }
 
-            
-            for(int b=maxrow-1;b>=minrow+1;b--){
-                arr[b][mincol]=count;
+            for (int b = maxrow - 1; b >= minrow + 1; b--) {
+                arr[b][mincol] = count;
                 count++;
             }
-    
+
             minrow++;
             mincol++;
             maxrow--;
@@ -38,17 +37,19 @@ public class SpiralMatrix{
         }
         return arr;
     }
-    public static void main(String[] args){
 
-      int number=3;
-      int[][]result=generateMatrix(number);
+    public static void main(String[] args) {
+        //Spiral matrix
 
-       for(int i=0;i<result.length;i++){
-        for(int j=0;j<result[i].length;j++){
-            System.out.print(result[i][j]+" ");
+        int number = 3;
+        int[][] result = generateMatrix(number);
+
+        for (int i = 0; i < result.length; i++) {
+            for (int j = 0; j < result[i].length; j++) {
+                System.out.print(result[i][j] + " ");
+            }
+            System.out.print(" ");
         }
-        System.out.print(" ");
-      }
 
     }
 }
