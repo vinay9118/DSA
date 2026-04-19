@@ -44,6 +44,7 @@ public class Delete_N_After_M {
     }
 
     public static void main(String[] args) {
+        //Create List
         ListNode head2 = new ListNode(1);
         ListNode temp3 = new ListNode(2);
         ListNode temp4 = new ListNode(3);
