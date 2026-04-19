@@ -48,8 +48,6 @@ public class Delete_Node {
         head2.next = temp3;
         temp3.next = temp4;
         print(head2);
-        // deleteNode(temp3);
-        // print(head2);
         print(deleteMiddle(head2));
     }
 }
