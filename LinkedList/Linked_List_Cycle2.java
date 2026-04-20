@@ -41,7 +41,7 @@ public class Linked_List_Cycle2 {
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
-            if (slow == fast) { //ycle exist
+            if (slow == fast) { //cycle exist
                 ListNode ptr = head;
                 while (ptr != slow) {
                     slow = slow.next;
