@@ -65,7 +65,7 @@ public class Intersection_of_List {
     }
 
     public static void main(String[] args) {
-        //create First 
+        //create First List
         ListNode head1 = new ListNode(1);
         ListNode temp1 = new ListNode(2);
         head1.next = temp1;
