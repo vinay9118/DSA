@@ -159,7 +159,7 @@ public class LinkedList {
         ll.removeLast();
         ll.Print();
 
-        System.out.println("Element are Removed at Given Index:");
+        System.out.println("Element are Removed at Given Index:: ");
         ll.remove(1);
         ll.Print();
 
