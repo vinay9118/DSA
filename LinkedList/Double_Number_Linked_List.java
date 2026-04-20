@@ -40,6 +40,7 @@ public class Double_Number_Linked_List {
     }
 
     public static ListNode doubleIt(ListNode head) {
+
         ListNode dummy = new ListNode(-1);
         ListNode ptr1 = head;
         ListNode ptr = reverse(ptr1);
@@ -64,6 +65,7 @@ public class Double_Number_Linked_List {
     }
 
     public static void main(String[] args) {
+        //Linked List
         ListNode head1 = new ListNode(6);
         ListNode head2 = new ListNode(4);
         ListNode head3 = new ListNode(8);
