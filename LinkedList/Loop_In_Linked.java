@@ -45,7 +45,7 @@ public class Loop_In_Linked {
                 return true;
             }
         }
-        System.out.println("Linked List not formed Cycle");
+        System.out.println("Linked List not formed Cycle:");
         return false;
     }
     public static void main(String[] args) {
