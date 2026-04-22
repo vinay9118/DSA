@@ -51,9 +51,9 @@ public class Palindrome {
         if (head == null || head.next != null) {
             return true;
         }
-        //step-1 find mid
+        //Find mid
         Node midNode = findMid(head);
-        //step-2 reverse 2nd half
+        //Reverse 2nd half
         Node prev = null;
         Node curr = midNode;
         Node next;
