@@ -51,7 +51,7 @@ public class Next_Greater_Element {
     public static int[] nextLargerNodes(ListNode lists) {
         //find size
         int size = findSize(lists);
-        //reverse the linkeed list
+        //reverse 
         ListNode ncurr = reverse(lists);
         //create new array with length size
         int[] arr = new int[size];
