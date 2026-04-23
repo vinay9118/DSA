@@ -64,7 +64,7 @@ public class Remove_Loop_Linked {
             return;
         }
 
-        //find Meeting Point
+        //find Meeting point 
         slow = head;
         Node prev =fast;
         while (slow == fast) {
