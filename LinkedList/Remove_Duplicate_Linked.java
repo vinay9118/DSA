@@ -61,7 +61,7 @@ public class Remove_Duplicate_Linked {
         ListNode temp2 = new ListNode(2);
         head1.next = temp1;
         temp1.next = temp2;
-        //print List
+        //Print List
         print(head1);
         //remove Duplicate node
         removeDuplicate(head1);
