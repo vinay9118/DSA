@@ -58,7 +58,7 @@ public class Searching_LinkedList {
             ll.add(i);
         }
         ll.Print();
-        //Searching operation 
+        //Searching Operation 
         ll.search(40);
     }
 
