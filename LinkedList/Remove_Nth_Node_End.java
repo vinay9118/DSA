@@ -66,7 +66,7 @@ public class Remove_Nth_Node_End {
     }
 
     public void deleteNthfromEnd(int n) {
-        //calculate size
+        //Calculate size
         Node prev = head;
         int sz = 0;
         while (prev != null) {
