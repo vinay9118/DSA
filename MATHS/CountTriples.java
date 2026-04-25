@@ -16,6 +16,7 @@ public class CountTriples {
     }
 
     public static void main(String[] args) {
+        //Input
         int z = 10;
         int result = countTriples(z);
         System.out.println(result);
