@@ -13,6 +13,7 @@ public class Countoperation {
     }
 
     public static void main(String[] args) {
+        //INPUT
         int num =10;
         int num2=10;
         int result = countOperations(num, num2);
