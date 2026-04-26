@@ -1,5 +1,3 @@
-import java.util.*;
-//leetcode 50
 public class Pow50{
     public static double myPow(double x,int n){
         if(n==0 ||x==1){
@@ -24,6 +22,7 @@ public class Pow50{
        return ans;
     }
     public static void main(String[] args){
+        //Input 
         double x1=2.10000;
         int n3=3;
         System.out.println(myPow(x1,n3));
