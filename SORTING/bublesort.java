@@ -15,6 +15,7 @@ public class bublesort{
         return num;
     }
     public static void main(String[] args){
+        //Input
         int arr[]={3,6,2,1,8,7,4,5,3};
         int[]result=Bublesort(arr);
         System.out.println(Arrays.toString(result));
