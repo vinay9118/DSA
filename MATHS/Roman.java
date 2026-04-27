@@ -32,7 +32,7 @@ public class Roman {
     }
     //main function
     public static void main(String[] args) {
-        String s = "MCMXCIV"; // Example input (1994)
+        String s = "MCMXCIV"; // Example  (1994)
 
         Roman obj = new Roman();
         int result = obj.romanToInt(s);
