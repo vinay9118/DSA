@@ -27,7 +27,7 @@ public class N_Queen_Problem_One_Sol{
     }
 
     public static boolean nQueens(char[][] board, int row) {
-        //base case
+        //Base case
         if (row == board.length) {
             count++;
             
