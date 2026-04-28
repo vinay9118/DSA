@@ -7,7 +7,7 @@ public class A{
             printArr(arr);
             return;
         }
-        //recursion
+        //Recursion
         arr[i]=val;
         changeArr(arr, i+1, val+1);
         arr[i]=arr[i]-2;
