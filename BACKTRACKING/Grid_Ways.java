@@ -21,7 +21,7 @@ public class Grid_Ways {
 
     public static void main(String[] args) {
         int n = 3, m = 3;
-        System.out.println("In Exponential time complexity::"+grid_ways(0, 0, n, m));
+        System.out.println("In Exponential time complexity: "+grid_ways(0, 0, n, m));
         int ans=fact(n-1+m-1)/(fact(n-1)*fact(m-1));
         System.out.println("In Linear Time Complexity::"+ans);
     }
