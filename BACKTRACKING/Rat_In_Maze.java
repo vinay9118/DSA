@@ -31,7 +31,7 @@ public class Rat_In_Maze {
             return true;
         }
 
-        //check if maze[x][y] is valid
+        //check if maze[x][y] is validation
         if(isSafe(maze,x,y)==true){
             if(sol[x][y]==1){
                 return false;
