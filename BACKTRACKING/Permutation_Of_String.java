@@ -5,7 +5,7 @@ public class Permutation_Of_String{
             System.out.print(ans);
             return;
         }
-        //recursive call -
+        //recursive call 
         for(int i=0;i<str.length();i++){
             char curr=str.charAt(i);
            String newstr=str.substring(0,i)+str.substring(i+1);
