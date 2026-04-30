@@ -110,7 +110,7 @@ public class Soduku_Solve {
             if (board[row][i] == number) return false;
         }
 
-        // Check 3x3 grid
+        // Check 3x3 Grid
         int sr = (row / 3) * 3;
         int sc = (col / 3) * 3;
 
