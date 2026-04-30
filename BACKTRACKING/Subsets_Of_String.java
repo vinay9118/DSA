@@ -12,7 +12,7 @@ public class Subsets_Of_String {
 
             return;
         }
-        //yes choice
+        //Yes choice
         findSubsetStr(str, ans + str.charAt(i), i + 1);
         //No choice
         findSubsetStr(str, ans, i + 1);
