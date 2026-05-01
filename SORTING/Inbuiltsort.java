@@ -6,7 +6,7 @@ public class Inbuiltsort{
         Arrays.sort(num,0,3);
          System.out.println("Sort array in range index Order"+Arrays.toString(num));
 
-        Arrays.sort(num);//ascending order
+        Arrays.sort(num);//Ascending order
         System.out.println("Sort array in ascending Order:"+Arrays.toString(num));
 
         Arrays.sort(num,Collections.reverseOrder());
