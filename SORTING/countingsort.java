@@ -29,7 +29,6 @@ public class countingsort {
     }
 
     public static void main(String[] args) {
-        //Input
         int arr[] = {3, 6, 2, 1, 8, 0};
         int[] result = Countingsort(arr);
         System.out.println(Arrays.toString(result));
