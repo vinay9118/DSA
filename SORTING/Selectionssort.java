@@ -18,7 +18,7 @@ public class Selectionssort{
             num[max]=num[i];
             num[i]=temp;
         }
-        //return a sorted(descending array)
+        //Return a sorted(descending array)
         return num;
     }
     public static void main(String[] args){
