@@ -28,6 +28,7 @@ public class sort {
     }
 
     public static void main(String[] args) {
+        //Input
         int[] num = {2,0,2,1,1,0,1,2,1};
         sortColors(num);  
         System.out.println(Arrays.toString(num));
