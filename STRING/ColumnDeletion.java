@@ -20,6 +20,6 @@ public class ColumnDeletion {
     public static void main(String[] args) {
         String[] str = {"abc", "bce", "cae"};
         int result = minDeletionSize(str);
-        System.out.println("Number of columns to delete: " + result);
+        System.out.println("Number of columns to delete  " + result);
     }
 }
