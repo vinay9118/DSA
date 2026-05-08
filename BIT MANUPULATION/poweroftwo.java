@@ -2,7 +2,7 @@ import java.util.*;
 
 public class poweroftwo{
    
-   //DECIMAL TO BINARY CONVERTER
+   //DECIMAL TO BINARY
     public static String Dectobin(int n){
         if(n==0){
             return "0";
