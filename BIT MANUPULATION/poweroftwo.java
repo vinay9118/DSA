@@ -1,8 +1,7 @@
-import java.util.*;
 
 public class poweroftwo{
    
-   //DECIMAL TO BINARY
+   //DECIMAL TO BINARY CONVERTER
     public static String Dectobin(int n){
         if(n==0){
             return "0";
