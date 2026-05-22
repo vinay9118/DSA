@@ -1,7 +1,5 @@
-import java.util.*;
-//
 public class BinaryString{
-    //NOT OPTIMISED METHOD 
+    //NOT OPTIMISED 
     public static void binaryString(int n,int lastplace,String str){
     //base case
     if(n == 0){
