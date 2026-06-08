@@ -12,7 +12,7 @@ public class Count_Complete_Tree_Nodes {
             this.val = val;
             this.left = null;
             this.right = null;
-        }
+        } 
     }
 
     public static int countNodes(TreeNode root) {
