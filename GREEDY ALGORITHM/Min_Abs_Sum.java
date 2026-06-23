@@ -4,7 +4,7 @@ import java.util.*;
 public class Min_Abs_Sum {
 
     public static void main(String[] args) {
-        int[] arr1 = {1, 20, 3};
+        int[] arr1 = {1, 2, 3};
         int[] arr2 = {3, 2, 1};
 
         Arrays.sort(arr1);
