@@ -57,7 +57,7 @@ public class Longest_Word_With_All_Prefix {
     }
 
     public static void main(String[] args) {
-        String[] words = {"a", "banana", "app", "apply", "ap", "apply", "apple"};
+        String[] words = {"a", "banana", "app", "applies", "ap", "apply", "apple"};
         for (int i = 0; i < words.length; i++) {
             insert(words[i]);
         }
