@@ -61,7 +61,7 @@ public class Longest_Word_With_All_Prefix {
         for (int i = 0; i < words.length; i++) {
             insert(words[i]);
         }
-        longestword(root, new StringBuilder(""));
+        longestword(root, new StringBuilder(" "));
         System.out.println(ans);
     }
 }
