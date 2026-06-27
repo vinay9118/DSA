@@ -57,11 +57,11 @@ public class Longest_Word_With_All_Prefix {
     }
 
     public static void main(String[] args) {
-        String[] words = {"a", "banana", "app", "applies", "ap", "apply", "apple"};
+        String[] words = {"a", "banana", "app", "appl", "ap", "apply", "apple"};
         for (int i = 0; i < words.length; i++) {
             insert(words[i]);
         }
-        longestword(root, new StringBuilder(" "));
+        longestword(root, new StringBuilder(""));
         System.out.println(ans);
     }
 }
