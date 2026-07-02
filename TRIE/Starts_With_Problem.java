@@ -53,7 +53,7 @@ public class Starts_With_Problem {
 
     public static void main(String[] args) {
         String[] words = {"apple", "app", "mango", "woman"};
-        String prefix1 = "app";
+        String prefix1 = "ap";
         String prefix2 = "moon";
         for (int i = 0; i < words.length; i++) {
             insert(words[i]);
