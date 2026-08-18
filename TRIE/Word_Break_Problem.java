@@ -51,7 +51,7 @@ public class Word_Break_Problem {
     }
 
     public static void main(String[] args) {
-        String[] arr = {"i", "like", "sam", "samsung", "Mobile", "ice"};
+        String[] arr = {"i", "like", "sama", "samsung", "Mobile", "ice"};
         for (int i = 0; i < arr.length; i++) {
             insert(arr[i]);
         }
